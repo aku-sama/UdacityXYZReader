@@ -31,6 +31,8 @@
         <item name="android:textColor">?android:textColorPrimary</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="BodyText" parent="TextAppearance.AppCompat.Body1">
@@ -46,6 +48,7 @@
         <item name="android:paddingRight">@dimen/gap_16</item>
         <item name="android:textColor">?android:textColorSecondary</item>
         <item name="android:textColorLink">?colorAccent</item>
+        <item name="android:fontFamily">sans-serif</item>
         <item name="android:lineSpacingMultiplier">@fraction/detail_body_line_spacing_multiplier
         </item>
     </style>
