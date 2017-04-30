@@ -16,10 +16,10 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clipToPadding="false"
-            android:paddingBottom="@dimen/gap_4"
-            android:paddingTop="@dimen/gap_4"
+            android:paddingBottom="@dimen/list_side_margin_top"
             android:paddingLeft="@dimen/list_side_margin"
             android:paddingRight="@dimen/list_side_margin"
+            android:paddingTop="@dimen/list_side_margin_top"
             android:scrollbarStyle="outsideOverlay"
             tools:listitem="@layout/list_item_article" />
     </android.support.v4.widget.SwipeRefreshLayout>
@@ -33,15 +33,17 @@
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="?actionBarSize"
+            android:layout_height="@dimen/toolbar_size"
             android:layout_marginLeft="@dimen/list_toolbar_side_margin"
             android:layout_marginRight="@dimen/list_toolbar_side_margin"
+            android:gravity="bottom"
             app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:contentDescription="@string/app_name"
+                android:layout_marginBottom="@dimen/gap_16"
                 android:src="@drawable/logo" />
 
         </android.support.v7.widget.Toolbar>

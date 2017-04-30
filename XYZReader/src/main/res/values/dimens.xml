@@ -11,5 +11,6 @@
     <dimen name="gap_4">4dp</dimen>
     <dimen name="image_preview_size">100dp</dimen>
     <dimen name="fab_size">56dp</dimen>
+    <dimen name="toolbar_size">56dp</dimen>
 
 </resources>
